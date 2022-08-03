@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins';
+	font-size: 16px;
+}
+
+.announcement-bar {
+	background: #000;
+}
+.announcement-bar .announcement-content h1 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 74px;
+	text-align: center;
+	letter-spacing: -0.005em;
+	color: #FFFFFF;
+}
+
+/*====================header css==================*/
+
+.header .navbar .navbar-collapse {
+	justify-content: center;
+	margin-top: 26px;
+}
+.header .navbar .navbar-collapse .navbar-nav .nav-item {
+	margin-right: 10px;
+}
+.header .navbar .navbar-collapse .navbar-nav .nav-item:last-child {
+	margin-right: 0;
+}
+.header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 46px;
+	color: #000000;
+}
+
+/*======================banner css===================*/
+
+.banner .banner-main {
+    position: relative;
+    background-image: url(../images/image-1.png);
+    background-position: center;
+    background-size: cover;
+    height: 615px;
+    width: 100%;
+}
+.banner .banner-main .banner-content {
+	width: 48%;
+	padding-top: 3rem;
+}
+.banner .banner-main .banner-content h4 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 68px;
+	color: #000000;
+}
+.banner .banner-main .banner-content h1 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 68px;
+	color: #000000;
+}
+.banner .banner-main .banner-content p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 40px;
+	color: #000000;
+}
+.banner .banner-main .banner-content .btn a {
+	background: #000;
+    color: #fff;
+    padding: 22px 30px;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-top: 25px;
+    transition: all 0.5s ease 0s;
+}
+.banner .banner-main .banner-content .btn a:hover {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+
+/*======================brand css======================*/
+
+.brand {
+	margin-top:  5rem;
+}
+.brand .headding_titel h2 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 54px;
+	color: #000000;
+	text-align: center;
+}
+.brand .brand-logo {
+	text-align: center;
+}
+
+
+/*=====================nebulos css=======================*/
+
+.nebulos {
+	margin-top: 5rem;
+}
+.nebulos .nabo_content h2 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 45px;
+	line-height: 74px;
+	letter-spacing: -0.005em;
+	color: #01140D;
+}
+.nebulos .nabo_content p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 120%;
+	letter-spacing: 0.005em;
+	color: #727272;
+}
+.nebulos .nabo_content a {
+	background: #000;
+    color: #fff;
+    padding: 22px 30px;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-top: 25px;
+    
+}
+.nebulos .nabo_content a:hover {
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+	transition: all 0.5s ease 0s;
+}
+
+/*============================cust section css===================*/
+
+.cust {
+	margin-top: 7rem;
+}
+.cust .headding_titel h2 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	color: #283646;
+}
+.cust .headding_titel p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #77808B;
+	padding: 0 14rem;
+}
+.cust .cust-main {
+	background: #FFF;
+    border-radius: 8px;
+    padding-top: 66px;
+    position: relative;
+    background: linear-gradient(#F2F4F5 0 0) no-repeat calc(200% - var(--p,0%)) 100% / 200% var(--p,.08em);
+  	transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+}
+.cust .cust-main:hover {
+	--p: 100%;
+    --t: .3s;
+    color: #fff;
+}
+.cust .cust-main .cst_content {
+	display: block;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: -32px;
+    left: 46%;
+    transform: translate(-50%);
+    background: #A2A9B0;
+    border-radius: 50%;
+}
+.cust .cust-main p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #77808B;
+}
+.cust .cust-main h4 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	color: #283646;
+}
+.cust .cust-main h6 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	text-align: center;
+	color: #77808B;
+}
+
+/*=======================latest_news css=========================*/
+
+.latest_news {
+	margin-top: 8rem;
+}
+.latest_news .headding_titel h2 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 72px;
+	color: #000000;
+}
+.latest_news .headding_titel p {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	color: #34433D;
+	padding-right: 45rem;
+}
+.latest_news .news-bg .lat-cont h3 {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #34433D;
+	margin-top: 30px;
+}
+
+/*====================instragram css=====================*/
+
+.instr {
+	margin-top: 8rem;
+}
+.instr .container-fluid {
+	padding: 0;
+}
